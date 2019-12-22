@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="363.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iTravel.AddEmployeeController">
+   <children>
+      <Button fx:id="saveBtn" layoutX="207.0" layoutY="282.0" mnemonicParsing="false" onAction="#save" prefHeight="29.0" prefWidth="64.0" text="Save">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtn" layoutX="343.0" layoutY="282.0" mnemonicParsing="false" onAction="#cancel" prefHeight="29.0" prefWidth="64.0" text="Cancel">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="203.0" layoutY="34.0" text="Add Employee">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="119.0" text="Name" />
+      <Label layoutX="87.0" layoutY="161.0" text="Employee ID" />
+      <Label layoutX="87.0" layoutY="205.0" text="Position" />
+      <TextField fx:id="eName" layoutX="207.0" layoutY="114.0" />
+      <TextField fx:id="eID" layoutX="207.0" layoutY="156.0" />
+      <TextField fx:id="ePosition" layoutX="207.0" layoutY="200.0" />
+   </children>
+</AnchorPane>
